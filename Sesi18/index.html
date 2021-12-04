@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery in action</title>
+</head>
+
+<body>
+    <div>
+        <p class="my-class">welocom to javascript</p>
+        <p id="my-id">ini adalah kelas FSD OCBC Batch2</p>
+        <p>selamat datang</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" type="text/javascript">
+        </script>
+    <script>
+        $('document').ready(function(){
+            $('p.my-class').css('background-color', 'yellow')
+        })
+    </script>
+</body>
+
+</html>
