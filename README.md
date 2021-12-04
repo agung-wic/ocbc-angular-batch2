@@ -2,11 +2,15 @@
 <ol>
     <li>
         <h4>Session 1:</h4><br />
-        <li>Learn about Javascrpt Intro, Conditional, Looping and Array</li><br />
-        <li>Do assignment 1</li>
+        <ul>
+            <li>Learn about Javascrpt Intro, Conditional, Looping and Array</li><br />
+            <li>Do assignment 1</li>
+        </ul>
     </li>
     <li>
         <h4>Session 2:</h4><br />
-        <li>Learn about Javascipt Object, Function and jQuery DOM</li>
+        <ul>
+            <li>Learn about Javascipt Object, Function and jQuery DOM</li>
+        </ul>
     </li>
 </ol>
