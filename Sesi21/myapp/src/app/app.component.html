@@ -1,0 +1,51 @@
+<!--  Structural Directives: NgIf Component-->
+<!-- <h2>NgIf Component</h2>
+<app-komponen1 *ngIf="isActive" [hero]=heroes[0]></app-komponen1> -->
+
+<!--  Structural DIrectives: NgFor-->
+<!-- <h2 id="ngFor">*ngFor Heroes</h2>
+<div class="box">
+  <div *ngFor="let hero of heroes">{{hero.id}}. {{hero.name}}</div>
+</div> -->
+
+<!-- Structural Directives: NgFor Template -->
+<!-- <h2 id="ngFor">template ngFor Of Heroes</h2>
+
+<ng-template ngFor let-hero [ngForOf]="heroes" let-i="index">
+  <div>({{i}}) {{hero.name}}</div>
+  <div>emotion: {{hero.emotion ? hero.emotion: '-'}}</div>
+</ng-template> -->
+
+<!-- Structural Directives: NgFor component -->
+<!-- <h2 id="ngFor">Component ngFor</h2>
+<app-komponen1 *ngFor="let hero of heroes" [hero]="hero"></app-komponen1> -->
+
+<!-- Study Case menggunakan NgIf -->
+<!-- <h2 id="ngFor">Country</h2>
+<app-komponen1 *ngFor="let people of peoples" [people]="people"></app-komponen1> -->
+
+<!-- Attribute Directives: NgClass -->
+<!-- <h2>ngClass Binding</h2>
+<div [ngClass]="isSpecial ? 'special' : ''">This div is special</div>
+<div [ngClass]="{'helpfull': false, 'study': true, 'course': true}">Study Course</div> -->
+
+<!--  Attribute Directives: NgStyle-->
+<!-- <h2>NgStyle Binding</h2>
+
+<div [style.font-size]="'x-large'">x-large</div>
+<div [style.font-size]="'smaller'">smaller</div>
+<div [style.font-size]="isSpecial ? 'x-large' : 'smaller'">This div is x-large or smaller ?</div>
+
+<div [ngStyle]="currentStyles">
+  This div is initially italic, bold, and extra large (24px).
+</div> -->
+
+<!-- Attribute Directives: NgModel -->
+<h2>NgModel</h2>
+<label>italic: <input type="checkbox" [(ngModel)]="isItalic"></label> |
+<label>normal: <input type="checkbox" [(ngModel)]="isBold"></label>
+
+<div>
+  {{ isItalic ? "italic" : "plain"}},
+  {{ isBold ? "normal weight" : "bold"}}
+</div>

@@ -1,0 +1,5 @@
+<app-header [message]="parrentMessage"></app-header>
+<ul>
+    <li *ngFor="let item of list">{{item}}</li>
+</ul>
+<app-footer (newItemEvent)="addItemInParent($event)"></app-footer>
