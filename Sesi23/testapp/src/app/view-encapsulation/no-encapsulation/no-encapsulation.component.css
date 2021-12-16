@@ -1,0 +1,8 @@
+h2, .none-message{
+    color: red;
+}
+
+.border{
+    border: solid 1px red;
+    margin: 5px;
+}

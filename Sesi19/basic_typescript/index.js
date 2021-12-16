@@ -110,4 +110,38 @@ var SalesEmployee = /** @class */ (function (_super) {
 }(Employee));
 var emp = new Employee('Mawar');
 emp.code = "123";
-console.log(emp.name);
+// console.log(emp.name)
+// Data Modifier Private
+// class Employee1{
+//     private code: string
+//     constructor(private name: string){
+//         this.name = name
+//     }
+//     getCode(){
+//         return this.code
+//     }
+// }
+// class SalesEmployee1 extends Employee1{
+//     getSalesCode(){
+//         return 'sales '+ this.name + this.code
+//     }
+// }
+// let emp1 = new Employee1('Mawar')
+// emp1.code = "123"
+// Data Modifier Protected
+// class Employee2 {
+//     protected code: string
+//     constructor(protected name: string) {
+//         this.name = name
+//     }
+//     getCode() {
+//         return this.code
+//     }
+// }
+// class SalesEmployee2 extends Employee2 {
+//     getSalesCode() {
+//         return 'sales ' + this.name + this.code
+//     }
+// }
+// let emp2 = new Employee2('Mawar')
+// emp2.code = "123"

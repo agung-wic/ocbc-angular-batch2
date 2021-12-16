@@ -1,0 +1,32 @@
+<h2>Birthday Data Pipe</h2>
+<p>The hero's birthday is {{birthday}}</p>
+<p>The hero's birthday is {{birthday | date}}</p>
+<p>The hero's birthday is {{birthday | date: 'MM/dd/yy'}}</p>
+
+<hr>
+
+<h2>Heros Display</h2>
+<p> (1) The heroes:</p>
+{{heroes}}
+
+<p> (2) The heroes</p>
+{{heroes | json}}
+
+<hr>
+
+<h2>Birthday Pipe Chaining</h2>
+<p>
+  (1) The Chained hero's birtday is
+  {{ birthday | date | uppercase}}
+</p>
+
+<p>
+  (2) The chained hero's birthday is 
+  {{ birthday | date: 'fullDate' | uppercase}}
+</p>
+
+<hr>
+
+<h2>Custom Pipe</h2>
+<p>{{129392 | customFileSizePipe }}</p>
+<p>{{5000 | customFileSizePipe:'GB' }}</p>

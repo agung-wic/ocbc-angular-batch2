@@ -1,0 +1,8 @@
+h2, .shadow{
+    color: blue;
+}
+
+.bordered{
+    border: solid 1px blue;
+    margin: 5px;
+}
